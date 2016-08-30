@@ -1,9 +1,9 @@
-  body {
+        body{
             background-color: #32353b;
             color: white;
             font-family: sans-serif;
         }
-        .xc {
+        .xc{
             width: 60%;
             height: 2%;
             border: none;
@@ -11,89 +11,85 @@
             padding: 15px;
             font-size: 16px;
         }
-        .vv {
+        .vv{
             width: 96%;
             margin: 0 auto;
         }
-        .nn {
+        .nn{
             text-align: center;
         }
-        #title {
-            text-align: center;
-        }
-        .album {
+		#title{
+		text-align:center;
+		}
+        .album{
             width: 300px;
             height: 260px;
             padding: 6px;
             border-radius: 5px;
             background-color: white;
         }
-        .dow {
+        .dow{
             text-align: center;
         }
-        .but {
+        .but{
             text-align: center;
         }
-        .title {
+        .title{
             color: white;
             font-size: 26px;
             margin-bottom: 10px;
         }
-        .tit {
+        .tit{
             width: 300;
             text-align: center;
             margin: 0 auto;
         }
-        .repeat {
-            background-color: #4CAF50;
-            /* Green */
-            
-            border: none;
-            color: white;
-            padding: 6px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px -3px;
-            cursor: pointer;
-            margin-bottom: -20px;
-        }
-        .dow {
-            background-color: #4CAF50;
-            /* Green */
-            
-            border: none;
-            color: white;
-            padding: 6px 120px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-        .duration {
-            font-size: 14px;
-            margin-top: -70px;
+.repeat {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px -3px;
+    cursor: pointer;
+    margin-bottom: -20px;
+}
+    .dow {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    .duration{
+    font-size: 14px;
+    margin-top: -70px;
         }
         @media only screen and (max-width: 1000px) {
-            .xc {
-                width: 100%;
-                height: 6%;
-                padding: 20px;
-                font-size: 18px;
-            }
-            .album {
-                width: 90%;
-            }
-            .repeat {
-                margin-top: 4px;
-                padding: 2% 30%;
-                margin-left: 16%;
-                text-align: left;
-            }
-            .dow {
-                padding: 6px 35%;
-            }
+     .xc{
+            width: 100%;
+            height: 6%;
+            padding: 20px;
+            font-size: 18px;
         }
+          .album{
+            width: 90%;
+        }
+        .repeat {
+    margin-top: 4px;
+    padding: 2% 30%;
+    margin-left: 16%;
+    text-align: left;
+}
+    .dow{ 
+       padding: 6px 35%;
+        }
+}
