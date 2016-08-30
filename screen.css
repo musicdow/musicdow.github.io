@@ -28,6 +28,10 @@
             border-radius: 5px;
             background-color: white;
         }
+		.mp3dow{
+		    margin: 10% 0% 0% 12%;
+           font-size: 300%;
+		}
         .dow{
             text-align: center;
         }
@@ -92,4 +96,7 @@
     .dow{ 
        padding: 6px 35%;
         }
+	.mp3dow{
+	font-size: 840%
+	}
 }
