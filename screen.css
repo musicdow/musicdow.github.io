@@ -15,6 +15,11 @@
             width: 96%;
             margin: 0 auto;
         }
+        .ads-coin{     
+       bottom: 0;
+       margin-top: 15%;
+       text-align: end;
+}
         .nn{
             text-align: center;
         }
