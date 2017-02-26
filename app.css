@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: #313134;
+}
+nav{
+    position: relative;
+    background-color: #0074d9;
+}
+.title-t{
+    color: white;
+    background-color: rgba(42, 42, 42, 0.62);
+}
+.title-tc{
+    color: white;
+}
+.mm{
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+.jj{
+    margin: 4%;
+    margin-top: 0px;
+}
+.item{
+    text-align: center;
+    float:left; 
+    width: 31.8%;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid white 3px;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+.item:hover{
+    background-color: black;
+    border: solid #b1b1b1 3px;
+    transition: all;
+}
+@media only screen and (max-width: 500px) {
+    .item{
+        width: 48%;
+        font-size: 14px;
+    }
+}
